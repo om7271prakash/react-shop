@@ -1,0 +1,16 @@
+.main{
+    width: 100%;
+}
+.container{
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 5px;
+    min-height: 50px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container h1{
+    text-align: center;
+    text-decoration: underline;
+}
+

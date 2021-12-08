@@ -1,0 +1,53 @@
+.wrapper{
+    width: 90%;
+    margin: 5px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow: hidden;
+}
+.wrapper:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item_info{
+    float: left;
+    width: 45%;
+    padding: 10px 20px;
+}
+.item_name{    
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 10px;
+}
+.item_price{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    color: #0008ff;
+}
+.action{
+    float: left;
+    width: 45%;
+    padding: 10px 20px;
+    text-align: right;
+}
+.item_quantity label{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+}
+.item_quantity input{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.add_to_cart button{
+    padding: 5px 54px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #6200ee;
+    color: white;
+    border: 1px solid #6200ee;
+    cursor: pointer;
+    font-weight: 700;
+}
